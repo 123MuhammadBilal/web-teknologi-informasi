@@ -1,0 +1,212 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ----------- LOGIN DAN REGISTER --------------- */
+.login-register{
+  height: 100vh;
+  background-image: url('../img/bg-data.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-register .header h1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #f8ac07;
+}
+.login-register .header p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.login-register-form label{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+  color: white;
+}
+
+.login-register-form input{
+  background: #FFFF;
+  border: 1px solid #BCBCBC;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.login-register-form .btn-login-register{
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 42px;
+  background-color: rgb(248, 172, 7);
+  border: 1px solid #BCBCBC;
+  box-sizing:  border-box;
+  border-radius: 8px;
+  display: block;
+  margin: 20px 0;
+  border: none;
+}
+
+.login-register-form .btn-login-register:hover{
+  background-color: #af1818;
+  color: white;
+}
+
+.login-register-form span{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: white;
+}
+
+.login-register-form span a{
+  text-decoration: none;
+  font-weight: 600px;
+  color: rgb(215, 236, 22)
+}
+
+
+/* =-------------------- NAVBAR --------------------- */
+#navbar .navbar-brand {
+  color: #ffffff;
+}
+#navbar .nav-link {
+  color: #ffff;
+  font-size: 20px;
+}
+#navbar .navbar-nav a:hover {
+  color: #fded0a;
+}
+#navbar .dropdown-menu li a{
+ color: rgba(243, 237, 237, 0.986);
+}
+#navbar .dropdown-menu li a:hover{
+ color: rgba(8, 8, 8, 0.986);
+}
+
+
+/* ---------------- HOME ------------------ */
+#home{
+  margin-top: 170px;
+  height: 100vh;
+}
+#home .home {
+  height: 100vh;
+  margin-top: -170px;
+  padding-top: 12rem;
+  /* background-color: #473737; */
+  background-image: url('../img/bg-login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home h2 {
+  margin-top: 30px;
+}
+
+/* ------------------ ABOUT ------------- */
+#about {
+  position: relative;
+  height: 100vh;
+  padding-top: 200px;
+}
+
+#about h4 {
+  text-indent: 70px;
+  text-align: justify;
+}
+
+/* -----------------data ---------------- */
+#data {
+  height: 100vh;
+  padding-top: 150px;
+  /* background-color: #473737; */
+  background-image: url('../img/bg-login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#data .card {
+  text-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+#data .card button a{
+  text-decoration: none;
+  color: black;
+}
+
+/* ---------------------------DATA PAGE ---------------------*/
+#data-page{
+  padding-top: 50px;
+  height: 100vh;
+  background-color: #6e6767;
+}
+#data-page h1{
+  color: white;
+}
+#data-page .card{
+  /* background-color: #BCBCBC; */
+  background-image: url('../img/bg-login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 30px;
+  height: 80vh;
+  box-shadow: 15px 15px ;
+}
+
+#edit-tambah{
+  background-color: #6e6767;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+#edit-tambah .card{
+  background-image: url('../img/bg-login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;  box-sizing: border-box;
+  border-radius: 30px;
+  height: 80vh;
+  box-shadow: 15px 15px ;
+}
+
+#edit-tambah .card h1, label{
+  color: white;
+}
+
+#edit-tambah .form-control{
+  width: 100%;
+  background: rgb(102, 94, 94);
+  border: 1px solid #BCBCBC;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: white;
+}
+
+#edit-tambah .btn{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* ---------------- FOOTER --------------- */
+footer {
+  background-color: #473737;
+}
+footer h5 {
+  color: #fded0a;
+  padding-bottom: 5px;
+}
+footer .copyr {
+  margin-top: 20px;
+}
